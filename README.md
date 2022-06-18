@@ -32,7 +32,7 @@ Range is from 0 to +1
 Complex words are words in the text that contain more than two syllables.
 
 **Word Count**: We count the total cleaned words present in the text by 
-  > removing the stop words (using stopwords class of nltk package).
+  > removing the stop words 
   > removing any punctuations like ? ! , . from the word before counting.
 
 **Syllable Count Per Word**: exceptions like words ending with "es","ed" by not counting them as a syllable.
@@ -42,3 +42,5 @@ Complex words are words in the text that contain more than two syllables.
 **Average Word Length**:
 Sum of the total number of characters in each word/Total number of words
 
+# Conditions
+Use only those positive and negetive and stopwords which are given, not from NLTK Library
